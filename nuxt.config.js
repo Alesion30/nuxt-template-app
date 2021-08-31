@@ -1,4 +1,5 @@
 export default {
+  srcDir: 'src/',
   ssr: false,
   target: 'static',
   head: {
