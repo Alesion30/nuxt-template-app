@@ -15,7 +15,11 @@ export default {
   css: [],
   plugins: [],
   components: true,
-  buildModules: ['@nuxt/typescript-build', '@nuxtjs/tailwindcss'],
+  buildModules: [
+    '@nuxt/typescript-build',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/vuetify',
+  ],
   modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
   axios: {},
   pwa: {
